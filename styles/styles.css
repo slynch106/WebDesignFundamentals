@@ -1,0 +1,250 @@
+/* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+#active
+{
+    border:2px solid white;
+}
+header {
+    background-color: #d30000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+nav {
+    margin-left: auto; /* Push navigation links to the right */
+    background-color: #333;
+    padding:5px;
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li {
+    list-style-type: none;
+    background-color: #b2b2b2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border:2px solid red;
+    border-radius: 30px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+#featured-products {
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#categories {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#best-sellers {
+    background-color: lightgray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#testimonials {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+.testimonial {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.testimonial p.author {
+    font-weight: bold;
+}
+.testimonial-photo {
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    border-radius: 50%; /* Make the photo circular */
+    margin-right: 20px; /* Add space between the photo and text */
+}
+.testimonial-content {
+    flex: 1; /* Take up remaining space */
+}
+.testimonial-text {
+    margin-bottom: 5px; /* Add space below the text */
+}
+.testimonial-author {
+    font-style: italic; /* Make the author name italic */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px; /* Adjust spacing between products */
+}
+.product-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.logo {
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px;
+}
+.logo-container {
+    margin-right: 10px; /* Adjust spacing between logo and h1 text */
+}
+.featured-photos {
+    width: 200px;
+    height: 250px;
+}
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 250px;
+}
+.centered
+{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.centered-button
+{
+    background-color: #d30000;
+    color: #fff;
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid red;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 30px;
+}
+.team {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*2 columns*/
+    grid-gap: 10px; /* Adjust the gap between items as needed */
+  }
+  .team-member {
+    text-align: center;
+  }
+  .team-member img {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    border-radius: 50%;
+  }
+  .team-member .role {
+    margin-top: 10px;
+    font-style: italic;
+  }
+h2
+{
+    color: #d30000;
+}
+#contact-info {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+button[type="submit"] {
+    background-color: #d30000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+#product-details {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.product-card {
+    text-align: center;
+}
+.product-card h2 {
+    margin-bottom: 10px;
+    color: #d30000;
+}
+.product-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-details {
+    margin-top: 20px;
+}
+.product-details p {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.centered-button {
+    background-color: #d30000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
